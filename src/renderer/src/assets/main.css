@@ -5,7 +5,9 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url('./wavy-lines.svg');
+  /* background-image: url('./wavy-lines.svg'); */
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
   background-size: cover;
   user-select: none;
 }
